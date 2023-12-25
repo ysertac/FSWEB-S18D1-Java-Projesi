@@ -46,7 +46,6 @@ public class BurgerDaoImpl implements BurgerDao {
         return burger;
     }
 
-    @CrossOrigin("*")
     @Transactional
     @Override
     public Burger update(Burger burger) {
